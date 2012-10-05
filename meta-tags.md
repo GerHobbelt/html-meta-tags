@@ -48,6 +48,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta http-equiv='Cache-Control' content='no-cache'>
 <meta http-equiv='imagetoolbar' content='no'>
 <meta http-equiv='x-dns-prefetch-control' content='off'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 ```
 
