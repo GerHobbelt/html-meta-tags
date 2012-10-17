@@ -130,15 +130,11 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='format-detection' content='telephone=no'>
 <meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
 
-<link href='/apple-touch-icon.png' rel='apple-touch-icon' type='image/png'>
-<link href='touch-icon-ipad.png' rel='apple-touch-icon' sizes='72x72'>
-<link href='touch-icon-iphone4.png' rel='apple-touch-icon' sizes='114x114'>
-<link href='/startup.png' rel='apple-touch-startup-image'>
-
-<link href='http://github.com/images/touch-icon-iphone4.png' sizes='114x114' rel='apple-touch-icon-precomposed'>
-<link href='http://github.com/images/touch-icon-ipad.png' sizes='72x72' rel='apple-touch-icon-precomposed'>
-<link href='http://github.com/images/apple-touch-icon-57x57.png' sizes='57x57' rel='apple-touch-icon-precomposed'>
-
+<link rel="apple-touch-icon" sizes="144x144" href="assets/ico.apple-ipad@2x.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-iphone@2x.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-iphone.png" />
+<link href='assets/img/startup.png' rel='apple-touch-startup-image'>
 ```
 
 #### Internet Explorer Meta Tags
