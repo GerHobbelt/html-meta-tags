@@ -134,7 +134,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-ipad.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-iphone@2x.png" />
 <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-iphone.png" />
-<link href='assets/img/startup.png' rel='apple-touch-startup-image'>
+<link rel="apple-touch-startup-image" href='assets/img/startup.png" />
 ```
 
 #### Internet Explorer Meta Tags
