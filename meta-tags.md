@@ -104,7 +104,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='disqus' content='abcdefg'>
 <meta name='uservoice' content='asdfasdf'>
 <meta name='mixpanel' content='asdfasdf'>
-<meta name=”google” content=”notranslate” />
+<meta name='google' content='notranslate'>
 ```
 
 ## Company/Service Meta Tags
