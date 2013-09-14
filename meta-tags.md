@@ -81,6 +81,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 
 ``` html
 <meta name="google-analytics" content="1-AHFKALJ"/>
+<meta name="google-site-verification" content=" ... GWT ID ... " />
 <meta name="disqus" content="abcdefg"/>
 <meta name="uservoice" content="asdfasdf"/>
 <meta name="mixpanel" content="asdfasdf"/>
