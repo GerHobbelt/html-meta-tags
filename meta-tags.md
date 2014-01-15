@@ -2,7 +2,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ## Basic HTML Meta Tags
 
-``` html
+```html
 <meta name="keywords" content="your, tags"/>
 <meta name="description" content="150 words"/>
 <meta name="subject" content="your website's subject">
@@ -34,7 +34,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ## OpenGraph Meta Tags
 
-``` html
+```html
 <meta name="og:title" content="The Rock"/>
 <meta name="og:type" content="movie"/>
 <meta name="og:url" content="http://www.imdb.com/title/tt0117500/"/>
@@ -79,7 +79,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 Use custom meta tags to store data that you need in javascript, instead of hard-coding that data into your javascript.  I store my Google Analytics code in meta tags.  Here's some examples:
 
-``` html
+```html
 <meta name="google-analytics" content="1-AHFKALJ"/>
 <meta name="disqus" content="abcdefg"/>
 <meta name="uservoice" content="asdfasdf"/>
@@ -90,13 +90,13 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 
 #### ClaimID
 
-``` html
+```html
 <meta name="microid" content="mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7" />
 ```
     
 #### Apple Meta Tags
 
-``` html
+```html
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta content="yes" name="apple-touch-fullscreen" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -106,7 +106,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 
 #### Internet Explorer Meta Tags
 
-``` html
+```html
 <meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)" />
 <meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)" />
 <meta name="mssmarttagspreventparsing" content="true">
@@ -125,26 +125,26 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 
 #### TweetMeme Meta Tags
 
-``` html
+```html
 <meta name="tweetmeme-title" content="Retweet Button Explained" />
 ```
 
 #### Blog Catalog Meta Tags
 
-``` html
+```html
 <meta name="blogcatalog" />
 ```
 
 #### Rails Meta Tags
 
-``` html
+```html
 <meta name="csrf-param" content="authenticity_token"/>
 <meta name="csrf-token" content="/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc="/>
 ```
 
 #### Apple Tags
 
-``` html
+```html
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="format-detection" content="telephone=no">
@@ -162,7 +162,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
     
 ## HTML Link Tags
 
-``` html
+```html
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/martini" />
 <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 <link rel="fluid-icon" type="image/png" href="/fluid-icon.png" />
