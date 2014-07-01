@@ -150,6 +150,18 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ```
 
+#### Windows 8 Meta Tags
+```
+<meta name="application-name" content=" Contoso" />
+<meta name="msapplication-TileColor" content=" #009900" />
+<meta name="msapplication-square70x70logo" content="images/smalltile.png" />
+<meta name="msapplication-square150x150logo" content="images/mediumtile.png" />
+<meta name="msapplication-wide310x150logo" content="images/widetile.png" />
+<meta name="msapplication-square310x310logo" content="images/largetile.png" />
+<meta name="msapplication-notification" content="frequency=30; polling-uri=notifications/contoso1.xml;
+polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" />
+```
+
 #### Blog Catalog Meta Tags
 
 ``` html
