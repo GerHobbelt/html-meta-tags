@@ -95,17 +95,6 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta property='og:audio:type' content='application/mp3'>
 ```
 
-## Create Custom Meta Tags
-
-Use custom meta tags to store data that you need in Javascript, instead of hard-coding that data into your Javascript.  I store my Google Analytics code in meta tags.  Here's some examples:
-
-``` html
-<meta name='google-analytics' content='1-AHFKALJ'>
-<meta name='disqus' content='abcdefg'>
-<meta name='uservoice' content='asdfasdf'>
-<meta name='mixpanel' content='asdfasdf'>
-```
-
 ## Company/Service Meta Tags
 
 #### ClaimID
@@ -159,12 +148,6 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='msvalidate.01' content='6E3AD52DC176461A3C81DD6E98003BC9'>
 <meta http-equiv='cleartype' content='on'>
 
-```
-
-#### TweetMeme Meta Tags
-
-``` html
-<meta name='tweetmeme-title' content='Retweet Button Explained'>
 ```
 
 #### Blog Catalog Meta Tags
