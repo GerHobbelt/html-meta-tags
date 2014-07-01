@@ -96,7 +96,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ```
 
 #### Windows 8 Meta Tags
-```
+``` html
 <meta name="application-name" content=" Contoso" />
 <meta name="msapplication-TileColor" content=" #009900" />
 <meta name="msapplication-square70x70logo" content="images/smalltile.png" />
