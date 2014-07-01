@@ -206,7 +206,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='pingback' href='http://smallbiztrends.com/xmlrpc.php'>
 <link rel='stylesheet' media='only screen and (max-device-width: 480px)' href='http://wordpress.org/style/iphone.css' type='text/css'>
 <link rel='wlwmanifest' href='http://www.example.com/wp-includes/wlwmanifest.xml' type='application/wlwmanifest+xml'>
-```
+
 <link rel='help' title='FAQ' href='/faq'>
 <link rel='logo' type='image/svg' href='https://playfoursquare.s3.amazonaws.com/press/logo/foursquare-logo.svg'>
 <link rel='P3Pv1' href='/w3c/p3p.xml'>
@@ -218,7 +218,6 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'>
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 <link rel='chrome-webstore-item' href='https://chrome.google.com/webstore/detail/noojglkidnpfjbincgijbaiedldjfbhh'>
-
 ```
 ## Other Resources
 
