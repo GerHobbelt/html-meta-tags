@@ -51,62 +51,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ```
 
-## OpenGraph Meta Tags
-
-``` html
-<meta name='og:title' content='The Rock'>
-<meta name='og:type' content='movie'>
-<meta name='og:url' content='http://www.imdb.com/title/tt0117500/'>
-<meta name='og:image' content='http://ia.media-imdb.com/rock.jpg'>
-<meta name='og:site_name' content='IMDb'>
-<meta name='og:description' content='A group of U.S. Marines, under command of...'>
-
-<meta name='fb:page_id' content='43929265776'>
-<meta name='application-name' content='foursquare'>
-<meta name='og:email' content='me@example.com'>
-<meta name='og:phone_number' content='650-123-4567'>
-<meta name='og:fax_number' content='+1-415-123-4567'>
-
-<meta name='og:latitude' content='37.416343'>
-<meta name='og:longitude' content='-122.153013'>
-<meta name='og:street-address' content='1601 S California Ave'>
-<meta name='og:locality' content='Palo Alto'>
-<meta name='og:region' content='CA'>
-<meta name='og:postal-code' content='94304'>
-<meta name='og:country-name' content='USA'>
-
-<meta property='fb:admins' content='987654321'>
-<meta property='og:type' content='game.achievement'>
-<meta property='og:points' content='POINTS_FOR_ACHIEVEMENT'>
-
-<meta property='og:video' content='http://example.com/awesome.swf'>
-<meta property='og:video:height' content='640'>
-<meta property='og:video:width' content='385'>
-<meta property='og:video:type' content='application/x-shockwave-flash'>
-<meta property='og:video' content='http://example.com/html5.mp4'>
-<meta property='og:video:type' content='video/mp4'>
-<meta property='og:video' content='http://example.com/fallback.vid'>
-<meta property='og:video:type' content='text/html'>
-
-<meta property='og:audio' content='http://example.com/amazing.mp3'>
-<meta property='og:audio:title' content='Amazing Song'>
-<meta property='og:audio:artist' content='Amazing Band'>
-<meta property='og:audio:album' content='Amazing Album'>
-<meta property='og:audio:type' content='application/mp3'>
-```
-
 ## Company/Service Meta Tags
-
-#### ClaimID
-
-``` html
-<meta name='microid' content='mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7'>
-<meta name='readability-verification' content='E7aEHvVQpWc8VHDqKvaB2Z58hek2EAv2HuLuegv7'>
-<meta name='google-site-verification' content='4SMIedO1X4IkYrYuhEC2VuovdQM36Xxb0btUjElqQyg'>
-<meta name='ICBM' content='40.746990, -73.980537'>
-<meta name='generator' content='WordPress 3.3.1'>
-<meta name='norton-safeweb-site-verification' content='tz8iotmk-pkhui406y41y5bfmfxdwmaa4a-yc0hm6r0fga7s6j0j27qmgqkmc7oovihzghbzhbdjk-uiyrz438nxsjdbj3fggwgl8oq2nf4ko8gi7j4z7t78kegbidl4'>
-```
     
 #### Apple Meta Tags
 
@@ -174,7 +119,7 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 <meta name='csrf-param' content='authenticity_token'>
 <meta name='csrf-token' content='/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc='>
 ```
-    
+
 ## HTML Link Tags
 
 ``` html
@@ -212,13 +157,12 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 <link href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/' rel='original-source'>
 <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'>
 <link rel='profile' href='http://gmpg.org/xfn/11'>
-<link rel='chrome-webstore-item' href='https://chrome.google.com/webstore/detail/noojglkidnpfjbincgijbaiedldjfbhh'>
 ```
+
 ## Other Resources
 
 - [HTML5 Boilerplate explanations and suggestions of header tags](http://html5boilerplate.com/docs/head-Tips/)
 - [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
 - [Apple Meta Tags](http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html)
-- [OpenGraph Meta Tags](http://opengraphprotocol.org/)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
