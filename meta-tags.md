@@ -53,6 +53,14 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
 ```
+##  Meta Tags social
+```
+<meta property="og:title" content="title of article">
+<meta property="og:type" content="blog">
+<meta property="og:image" content="image url">
+<meta property="og:url" content="url">
+<meta property="og:description" content="description">
+```
 
 ## OpenGraph Meta Tags
 
