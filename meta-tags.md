@@ -52,11 +52,11 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ```
 ##  Meta Tags social
 ```
-<meta property="og:title" content="title of article">
-<meta property="og:type" content="blog">
-<meta property="og:image" content="image url">
-<meta property="og:url" content="url">
-<meta property="og:description" content="description">
+<meta property='og:title' content='title of article'>
+<meta property='og:type' content='blog'>
+<meta property='og:image' content='image url'>
+<meta property='og:url' content='url'>
+<meta property='og:description' content='description'>
 
 ```
 ## Company/Service Meta Tags
