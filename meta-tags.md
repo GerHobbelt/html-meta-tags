@@ -74,6 +74,14 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ```
 
+#### Chrome for Android Meta Tags
+
+```html
+
+<meta name='theme-color' content="#202020"/>
+
+```
+
 #### Internet Explorer Meta Tags
 
 ``` html
