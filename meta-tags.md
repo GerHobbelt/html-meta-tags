@@ -74,14 +74,6 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ```
 
-#### Chrome for Android Meta Tags
-
-```html
-
-<meta name='theme-color' content="#202020"/>
-
-```
-
 #### Internet Explorer Meta Tags
 
 ``` html
@@ -167,6 +159,14 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 ```
 
+#### Theme Color Meta Tags
+
+```html
+
+<meta name='theme-color' content="#202020"/>
+
+```
+
 ## Other Resources
 
 - [HTML5 Boilerplate explanations and suggestions of header tags](http://html5boilerplate.com/docs/head-Tips/)
@@ -174,3 +174,4 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 - [Apple Meta Tags](http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
+- [Theme Color](https://github.com/whatwg/meta-theme-color)
