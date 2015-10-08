@@ -72,6 +72,9 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <link href='http://github.com/images/touch-icon-ipad.png' sizes='72x72' rel='apple-touch-icon-precomposed'>
 <link href='http://github.com/images/apple-touch-icon-57x57.png' sizes='57x57' rel='apple-touch-icon-precomposed'>
 
+##### Safari 9 Pinned tabs in El Capitan
+<link rel="mask-icon" href="website_icon.svg" color="red">
+
 ```
 
 #### Internet Explorer Meta Tags
