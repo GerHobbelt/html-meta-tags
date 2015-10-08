@@ -75,7 +75,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ```
 
 ##### Safari 9 Pinned tabs in El Capitan
-```
+```html
 <link rel="mask-icon" href="website_icon.svg" color="red">
 ```
 
