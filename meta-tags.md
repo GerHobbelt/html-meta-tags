@@ -6,7 +6,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta charset='UTF-8'>
 <meta name='keywords' content='your, tags'>
 <meta name='description' content='150 words'>
-<meta name='subject' content='your website's subject'>
+<meta name='subject' content='your website’s subject'>
 <meta name='copyright' content='company name'>
 <meta name='language' content='ES'>
 <meta name='robots' content='index,follow'>
@@ -22,7 +22,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='url' content='http://www.websiteaddrress.com'>
 <meta name='identifier-URL' content='http://www.websiteaddress.com'>
 <meta name='directory' content='submission'>
-<meta name='pagename' content='jQuery Tools, Tutorials and Resources - O'Reilly Media'>
+<meta name='pagename' content='jQuery Tools, Tutorials and Resources - O’Reilly Media'>
 <meta name='category' content=''>
 <meta name='coverage' content='Worldwide'>
 <meta name='distribution' content='Global'>
