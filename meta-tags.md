@@ -48,7 +48,6 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta http-equiv='Cache-Control' content='no-cache'>
 <meta http-equiv='imagetoolbar' content='no'>
 <meta http-equiv='x-dns-prefetch-control' content='off'>
-
 ```
 
 ## Company/Service Meta Tags
@@ -56,7 +55,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 #### Apple Meta Tags
 
 ``` html
-<meta name="apple-mobile-web-app-title" content="My App"> <!-- New in iOS6 -->
+<meta name='apple-mobile-web-app-title' content='My App'>
 <meta name='apple-mobile-web-app-capable' content='yes'>
 <meta name='apple-touch-fullscreen' content='yes'>
 <meta name='apple-mobile-web-app-status-bar-style' content='black'>
@@ -75,8 +74,9 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ```
 
 ##### Safari 9 Pinned tabs in El Capitan
+
 ```html
-<link rel="mask-icon" href="website_icon.svg" color="red">
+<link rel='mask-icon' href='website_icon.svg' color='red'>
 ```
 
 #### Internet Explorer Meta Tags
@@ -85,7 +85,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta http-equiv='Page-Enter' content='RevealTrans(Duration=2.0,Transition=2)'>
 <meta http-equiv='Page-Exit' content='RevealTrans(Duration=3.0,Transition=12)'>
 <meta name='mssmarttagspreventparsing' content='true'>
-<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
 <meta name='msapplication-starturl' content='http://blog.reybango.com/about/'>
 <meta name='msapplication-window' content='width=800;height=600'>
 <meta name='msapplication-navbutton-color' content='red'>
@@ -97,19 +97,24 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='msapplication-task' content='name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico'>
 <meta name='msvalidate.01' content='6E3AD52DC176461A3C81DD6E98003BC9'>
 <meta http-equiv='cleartype' content='on'>
-
 ```
 
 #### Windows 8 Meta Tags
+
 ``` html
-<meta name="application-name" content=" Contoso" />
-<meta name="msapplication-TileColor" content=" #009900" />
-<meta name="msapplication-square70x70logo" content="images/smalltile.png" />
-<meta name="msapplication-square150x150logo" content="images/mediumtile.png" />
-<meta name="msapplication-wide310x150logo" content="images/widetile.png" />
-<meta name="msapplication-square310x310logo" content="images/largetile.png" />
-<meta name="msapplication-notification" content="frequency=30; polling-uri=notifications/contoso1.xml;
-polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" />
+<meta name='application-name' content='Contoso' />
+<meta name='msapplication-TileColor' content='#009900' />
+<meta name='msapplication-square70x70logo' content='images/smalltile.png' />
+<meta name='msapplication-square150x150logo' content='images/mediumtile.png' />
+<meta name='msapplication-wide310x150logo' content='images/widetile.png' />
+<meta name='msapplication-square310x310logo' content='images/largetile.png' />
+<meta name='msapplication-notification' content='frequency=30; polling-uri=notifications/contoso1.xml; polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml' />
+```
+
+#### Google News Meta Tags
+
+``` html
+<meta name='news_keywords' content='World Cup, Brazil 2014, Spain vs Netherlands, soccer, football'>
 ```
 
 #### Blog Catalog Meta Tags
@@ -159,7 +164,7 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 <link rel='image_src' href='http://du3itj18e4z0b.cloudfront.net/7b29fe/images/icon-facebook.gif' type='image/jpeg'>
 
 <link rel='author' href='humans.txt' type='text/plain'>
-<link href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/' rel='original-source'>
+<link rel='original-source' href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/'>
 <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'>
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 ```
