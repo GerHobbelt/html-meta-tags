@@ -166,7 +166,7 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 
 ## Open Graph 
 
-```
+``` html
 <meta name="og:title" content="The Rock"/>
 <meta name="og:type" content="movie"/>
 <meta name="og:url" content="http://www.imdb.com/title/tt0117500/"/>
