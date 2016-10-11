@@ -61,7 +61,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='apple-touch-fullscreen' content='yes'>
 <meta name='apple-mobile-web-app-status-bar-style' content='black'>
 <meta name='format-detection' content='telephone=no'>
-<meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
+<meta name='viewport' content="width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi">
 
 <link href='/apple-touch-icon.png' rel='apple-touch-icon' type='image/png'>
 <link href='touch-icon-ipad.png' rel='apple-touch-icon' sizes='72x72'>
@@ -90,7 +90,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='msapplication-window' content='width=800;height=600'>
 <meta name='msapplication-navbutton-color' content='red'>
 <meta name='application-name' content='Rey Bango Front-end Developer'>
-<meta name='msapplication-tooltip' content='Launch Rey Bango's Blog'>
+<meta name='msapplication-tooltip' content='Launch Rey Bango Blog'>
 <meta name='msapplication-task' content='name=About;action-uri=/about/;icon-uri=/images/about.ico'>
 <meta name='msapplication-task' content='name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico'>
 <meta name='msapplication-task' content='name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico'>
