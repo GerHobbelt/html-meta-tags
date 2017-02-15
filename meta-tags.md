@@ -42,6 +42,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name="verify-v1" content="dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I=">
 <meta name="y_key" content="1e39c508e0d87750">
 <meta name="pageKey" content="guest-home">
+<meta name="theme-color" content="#3c790a">
 <meta itemprop="name" content="jQTouch">
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
