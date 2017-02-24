@@ -186,6 +186,8 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://smallbiztrends.com/xmlrpc.php?rsd" />
 <link rel="pingback" href="http://smallbiztrends.com/xmlrpc.php" />
 <link media="only screen and (max-device-width: 480px)" href="http://wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
+
+<link rel="manifest" href="/manifest.json" />
 ```
 
 ## Other Resources
