@@ -3,6 +3,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ## Basic HTML Meta Tags
 
 ``` html
+<meta charset="utf-8"/> ## declares the page's character encoding
 <meta name="keywords" content="your, tags"/>
 <meta name="description" content="150 words"/>
 <meta name="subject" content="your website's subject">
@@ -195,3 +196,5 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 - [OpenGraph Meta Tags](http://opengraphprotocol.org/)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
+- [HTML meta 详解](https://segmentfault.com/a/1190000009705754)
+- [MDN The Document-level Metadata element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
