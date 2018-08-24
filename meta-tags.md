@@ -187,6 +187,10 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <link rel="pingback" href="http://smallbiztrends.com/xmlrpc.php" />
 <link media="only screen and (max-device-width: 480px)" href="http://wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
 ```
+## DNS Tags
+```
+<link rel="dns-prefetch" href="https://www.gstatic.com/">
+```
 
 ## Other Resources
 
