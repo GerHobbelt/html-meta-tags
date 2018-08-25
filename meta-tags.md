@@ -192,6 +192,11 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <link rel="dns-prefetch" href="https://www.gstatic.com/">
 ```
 
+## Content Tags
+```
+<link rel="canonical" href="originalMain.web.com" />
+```
+
 ## Other Resources
 
 - [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
