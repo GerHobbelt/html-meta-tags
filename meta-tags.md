@@ -1,5 +1,3 @@
-Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
-
 ## Basic HTML Meta Tags
 
 ``` html
@@ -197,6 +195,92 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <link media="only screen and (max-device-width: 480px)" href="http://wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
 ```
 
+## Templates
+
+### Article
+
+```html
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Article">
+
+<!-- Place this data between the <head> tags of your website -->
+<title>Page Title. Maximum length 60-70 characters</title>
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="The Name or Title Here">
+<meta itemprop="description" content="This is the page description">
+<meta itemprop="image" content="http://www.example.com/image.jpg">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Page Title">
+<meta name="twitter:description" content="Page description less than 200 characters">
+<meta name="twitter:creator" content="@author_handle">
+<!-- Twitter summary card with large image must be at least 280x150px -->
+<meta name="twitter:image:src" content="http://www.example.com/image.jpg">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Title Here" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/" />
+<meta property="og:image" content="http://example.com/image.jpg" />
+<meta property="og:description" content="Description Here" />
+<meta property="og:site_name" content="Site Name, i.e. Moz" />
+<meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+<meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
+<meta property="article:section" content="Article Section" />
+<meta property="article:tag" content="Article Tag" />
+<meta property="fb:admins" content="Facebook numberic ID" />
+```
+
+### Product
+
+```html
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Product">
+
+<!-- Place this data between the <head> tags of your website -->
+<title>Page Title. Maximum length 60-70 characters</title>
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="The Name or Title Here">
+<meta itemprop="description" content="This is the page description">
+<meta itemprop="image" content="http://www.example.com/image.jpg">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="product">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Page Title">
+<meta name="twitter:description" content="Page description less than 200 characters">
+<meta name="twitter:creator" content="@author_handle">
+<meta name="twitter:image" content="http://www.example.com/image.jpg">
+<meta name="twitter:data1" content="$3">
+<meta name="twitter:label1" content="Price">
+<meta name="twitter:data2" content="Black">
+<meta name="twitter:label2" content="Color">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Title Here" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/" />
+<meta property="og:image" content="http://example.com/image.jpg" />
+<meta property="og:description" content="Description Here" />
+<meta property="og:site_name" content="Site Name, i.e. Moz" />
+<meta property="og:price:amount" content="15.00" />
+<meta property="og:price:currency" content="USD" />
+```
+
+## Testing
+
+To test if your meta data is valid, there are several services:
+
+- [Facebook Meta Tags](https://developers.facebook.com/tools/debug/)
+- [Google Structured Data (Open Graph) Testing Tootl](https://search.google.com/structured-data/testing-tool/u/0/)
+- [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+
 ## Other Resources
 
 - [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
@@ -204,3 +288,8 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 - [OpenGraph Meta Tags](http://opengraphprotocol.org/)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
+
+## Credits
+
+- Originally copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
+- Added templates from https://moz.com/blog/meta-data-templates-123
