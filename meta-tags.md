@@ -16,7 +16,6 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name="Classification" content="Business">
 <meta name="author" content="name, email@hotmail.com">
 <meta name="designer" content="">
-<meta name="copyright" content="">
 <meta name="reply-to" content="email@hotmail.com">
 <meta name="owner" content="">
 <meta name="url" content="http://www.websiteaddrress.com">
@@ -73,6 +72,16 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta property="og:audio:artist" content="Amazing Band" />
 <meta property="og:audio:album" content="Amazing Album" />
 <meta property="og:audio:type" content="application/mp3" />
+```
+
+## Twitter Meta Tags
+
+```html
+<meta name='twitter:card' content='summary_large_image' />
+<meta name='twitter:site' content='@whoisryosuke' />
+<meta name='twitter:title' content='Presentation Title' />
+<meta name='twitter:description' content='A really great presentation' />
+<meta name='twitter:image' content='https://pbs.twimg.com/profile_images/979408111868952576/yq2IUoGt_bigger.jpg' />
 ```
 
 ## Create Custom Meta Tags
