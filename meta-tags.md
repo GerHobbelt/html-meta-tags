@@ -129,12 +129,6 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <link rel="shortcut icon" href="/images/favicon.ico" />
 ```
 
-#### TweetMeme Meta Tags
-
-``` html
-<meta name="tweetmeme-title" content="Retweet Button Explained" />
-```
-
 #### Blog Catalog Meta Tags
 
 ``` html
