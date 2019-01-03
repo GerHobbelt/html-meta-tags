@@ -32,6 +32,13 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta http-equiv="Cache-Control" content="no-cache">
 ```
 
+## Link
+
+```html
+<link rel="shortlink" href="http://entm.ag/b3u" />
+```
+
+
 ## OpenGraph Meta Tags
 
 ``` html
