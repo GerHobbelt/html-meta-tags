@@ -31,12 +31,6 @@
 <meta http-equiv="Cache-Control" content="no-cache">
 ```
 
-## Link
-
-```html
-<link rel="shortlink" href="#" />
-```
-
 
 ## OpenGraph Meta Tags
 
