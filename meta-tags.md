@@ -93,12 +93,6 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 ```
 
 ## Company/Service Meta Tags
-
-#### ClaimID
-
-``` html
-<meta name="microid" content="mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7" />
-```
     
 #### Apple Meta Tags
 
