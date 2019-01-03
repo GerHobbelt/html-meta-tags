@@ -1,5 +1,3 @@
-Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
-
 ## Basic HTML Meta Tags
 
 ``` html
@@ -35,7 +33,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ## Link
 
 ```html
-<link rel="shortlink" href="http://entm.ag/b3u" />
+<link rel="shortlink" href="#" />
 ```
 
 
@@ -194,11 +192,3 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <link rel="pingback" href="http://smallbiztrends.com/xmlrpc.php" />
 <link media="only screen and (max-device-width: 480px)" href="http://wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
 ```
-
-## Other Resources
-
-- [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
-- [Apple Meta Tags](http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html)
-- [OpenGraph Meta Tags](http://opengraphprotocol.org/)
-- [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
-- [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
