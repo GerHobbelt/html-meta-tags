@@ -226,7 +226,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 <link rel='chrome-webstore-item' href='https://chrome.google.com/webstore/detail/noojglkidnpfjbincgijbaiedldjfbhh'>
 
-```
+``` markdown
 ## Other Resources
 
 - [HTML5 Boilerplate explanations and suggestions of header tags](http://html5boilerplate.com/docs/head-Tips/)
