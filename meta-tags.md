@@ -4,25 +4,25 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ``` html
 <meta charset='UTF-8'>
-<meta name='keywords' content='your, tags'>
-<meta name='description' content='150 words'>
-<meta name='subject' content='your website's subject'>
-<meta name='copyright' content='company name'>
-<meta name='language' content='ES'>
-<meta name='robots' content='index,follow'>
-<meta name='revised' content='Sunday, July 18th, 2010, 5:15 pm'>
-<meta name='abstract' content=''>
-<meta name='topic' content=''>
-<meta name='summary' content=''>
+<meta name='keywords' content="your, tags">
+<meta name='description' content="150 words">
+<meta name='subject' content="your website's subject">
+<meta name='copyright' content="company name">
+<meta name='language' content="ES">
+<meta name='robots' content="index,follow">
+<meta name='revised' content="Sunday, July 18th, 2010, 5:15 pm">
+<meta name='abstract' content="">
+<meta name='topic' content="">
+<meta name='summary' content="">
 <meta name='Classification' content='Business'>
 <meta name='author' content='name, email@hotmail.com'>
 <meta name='designer' content=''>
 <meta name='reply-to' content='email@hotmail.com'>
 <meta name='owner' content=''>
-<meta name='url' content='http://www.websiteaddrress.com'>
+<meta name='url' content='http://www.websiteaddress.com'>
 <meta name='identifier-URL' content='http://www.websiteaddress.com'>
 <meta name='directory' content='submission'>
-<meta name='pagename' content='jQuery Tools, Tutorials and Resources - O'Reilly Media'>
+<meta name='pagename' content="jQuery Tools, Tutorials and Resources - O'Reilly Media">
 <meta name='category' content=''>
 <meta name='coverage' content='Worldwide'>
 <meta name='distribution' content='Global'>
@@ -61,7 +61,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='apple-touch-fullscreen' content='yes'>
 <meta name='apple-mobile-web-app-status-bar-style' content='black'>
 <meta name='format-detection' content='telephone=no'>
-<meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
+<meta name='viewport' content='width=device-width; width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
 
 <link href='/apple-touch-icon.png' rel='apple-touch-icon' type='image/png'>
 <link href='touch-icon-ipad.png' rel='apple-touch-icon' sizes='72x72'>
