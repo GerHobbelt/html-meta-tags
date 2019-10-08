@@ -1,6 +1,6 @@
 ## DEPRECATED
 
-Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea @dandv!
+Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [@dandv](https://github.com/dandv)!
 
 ---  
 
