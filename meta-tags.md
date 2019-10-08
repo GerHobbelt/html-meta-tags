@@ -1,3 +1,10 @@
+## DEPRECATED
+
+Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea @dandv!
+
+---  
+
+
 Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ## Basic HTML Meta Tags
