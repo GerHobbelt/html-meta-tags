@@ -189,7 +189,7 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 ```
 
 ## Other Resources
-
+- [Apple Meta Tags](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 - [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
 - [Apple Meta Tags](http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html)
 - [OpenGraph Meta Tags](http://opengraphprotocol.org/)
