@@ -1,3 +1,4 @@
+Copied from https://gist.github.com/kevinSuttle/1997924  
 Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ## DEPRECATED
@@ -5,8 +6,6 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [@dandv](https://github.com/dandv)!
 
 ---  
-
-
 
 
 ## Basic HTML Meta Tags
@@ -122,6 +121,16 @@ Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [
 <meta property='og:audio:type' content='application/mp3'>
 ```
 
+## Twitter Meta Tags
+
+```html
+<meta name='twitter:card' content='summary_large_image' />
+<meta name='twitter:site' content='@whoisryosuke' />
+<meta name='twitter:title' content='Presentation Title' />
+<meta name='twitter:description' content='A really great presentation' />
+<meta name='twitter:image' content='https://pbs.twimg.com/profile_images/979408111868952576/yq2IUoGt_bigger.jpg' />
+```
+
 ## Create Custom Meta Tags
 
 Use custom meta tags to store data that you need in Javascript, instead of hard-coding that data into your Javascript.  I store my Google Analytics code in meta tags.  Here's some examples:
@@ -147,7 +156,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='generator' content='WordPress 3.3.1'>
 <meta name='norton-safeweb-site-verification' content='tz8iotmk-pkhui406y41y5bfmfxdwmaa4a-yc0hm6r0fga7s6j0j27qmgqkmc7oovihzghbzhbdjk-uiyrz438nxsjdbj3fggwgl8oq2nf4ko8gi7j4z7t78kegbidl4'>
 ```
-    
+
 #### Apple Meta Tags
 
 ```html
@@ -156,7 +165,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='apple-touch-fullscreen' content='yes'>
 <meta name='apple-mobile-web-app-status-bar-style' content='black'>
 <meta name='format-detection' content='telephone=no'>
-<meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
+<meta name='viewport' content='width = 320;        initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
 <meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi, minimal-ui'>
 <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
 <meta name="viewport" content="width = device-width">
@@ -168,7 +177,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-iphone@2x.png" />
 <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-iphone.png" />
 <link rel="apple-touch-startup-image" href='assets/img/startup.png" />
-<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon" href="touch-icon-iphone.png" type='image/png' />
 <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
 <link href='http://github.com/images/touch-icon-iphone4.png' sizes='114x114' rel='apple-touch-icon-precomposed'>
 <link href='http://github.com/images/touch-icon-ipad.png' sizes='72x72' rel='apple-touch-icon-precomposed'>
@@ -218,6 +227,38 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 
 ```html
 <meta name="news_keywords" content="World Cup, Brazil 2014, Spain vs Netherlands, soccer, football">
+```
+
+#### Twitter Cards
+
+```html
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:site.id" content="@flickr" />
+<meta name="twitter:creator" content="@flickr" />
+<meta name="twitter:creator.id" content="@flickr" />
+<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+<meta name="twitter:description" content="View the album on Flickr." />
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+<meta name="twitter:image.alt" content="A text description of the image conveying the essential nature of an image to users who are visually impaired." />
+
+<meta name="twitter:player" content="https://urlofplayeriframe.com" />
+<meta name="twitter:player" content="https://www.w3schools.com/html/mov_bbb.html">
+<meta name="twitter:player:stream" content="https://www.w3schools.com/html/mov_bbb.mp4">
+<meta name="twitter:player:height" content="320">
+<meta name="twitter:player:width" content="600">
+<meta name="twitter:domain" content="www.w3schools.com">
+
+<meta name="twitter:app:country" content="US">
+<meta name="twitter:app:name:iphone" content="Cannonball">
+<meta name="twitter:app:id:iphone" content="929750075">
+<meta name="twitter:app:url:iphone" content="cannonball://poem/5149e249222f9e600a7540ef">
+<meta name="twitter:app:name:ipad" content="Cannonball">
+<meta name="twitter:app:id:ipad" content="929750075">
+<meta name="twitter:app:url:ipad" content="cannonball://poem/5149e249222f9e600a7540ef">
+<meta name="twitter:app:name:googleplay" content="Cannonball">
+<meta name="twitter:app:id:googleplay" content="io.fabric.samples.cannonball">
+<meta name="twitter:app:url:googleplay" content="http://cannonball.fabric.io/poem/5149e249222f9e600a7540ef">
 ```
 
 #### TweetMeme Meta Tags
@@ -316,12 +357,101 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel="canonical" href="originalMain.web.com" />
 ```
 
+## Templates
+
+### Article
+
+```html
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Article">
+
+<!-- Place this data between the <head> tags of your website -->
+<title>Page Title. Maximum length 60-70 characters</title>
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="The Name or Title Here">
+<meta itemprop="description" content="This is the page description">
+<meta itemprop="image" content="http://www.example.com/image.jpg">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Page Title">
+<meta name="twitter:description" content="Page description less than 200 characters">
+<meta name="twitter:creator" content="@author_handle">
+<!-- Twitter summary card with large image must be at least 280x150px -->
+<meta name="twitter:image:src" content="http://www.example.com/image.jpg">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Title Here" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/" />
+<meta property="og:image" content="http://example.com/image.jpg" />
+<meta property="og:description" content="Description Here" />
+<meta property="og:site_name" content="Site Name, i.e. Moz" />
+<meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+<meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
+<meta property="article:section" content="Article Section" />
+<meta property="article:tag" content="Article Tag" />
+<meta property="fb:admins" content="Facebook numberic ID" />
+```
+
+### Product
+
+```html
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Product">
+
+<!-- Place this data between the <head> tags of your website -->
+<title>Page Title. Maximum length 60-70 characters</title>
+<meta name="description" content="Page description. No longer than 155 characters." />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="The Name or Title Here">
+<meta itemprop="description" content="This is the page description">
+<meta itemprop="image" content="http://www.example.com/image.jpg">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="product">
+<meta name="twitter:site" content="@publisher_handle">
+<meta name="twitter:title" content="Page Title">
+<meta name="twitter:description" content="Page description less than 200 characters">
+<meta name="twitter:creator" content="@author_handle">
+<meta name="twitter:image" content="http://www.example.com/image.jpg">
+<meta name="twitter:data1" content="$3">
+<meta name="twitter:label1" content="Price">
+<meta name="twitter:data2" content="Black">
+<meta name="twitter:label2" content="Color">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Title Here" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/" />
+<meta property="og:image" content="http://example.com/image.jpg" />
+<meta property="og:description" content="Description Here" />
+<meta property="og:site_name" content="Site Name, i.e. Moz" />
+<meta property="og:price:amount" content="15.00" />
+<meta property="og:price:currency" content="USD" />
+```
+
+## Testing
+
+To test if your meta data is valid, there are several services:
+
+- [Facebook Meta Tags](https://developers.facebook.com/tools/debug/)
+- [Google Structured Data (Open Graph) Testing Tootl](https://search.google.com/structured-data/testing-tool/u/0/)
+- [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+
 ## Other Resources
 
+- [Apple Meta Tags](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 - [HTML5 Boilerplate explanations and suggestions of header tags](http://html5boilerplate.com/docs/head-Tips/)
 - [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
 - [Apple Meta Tags](http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html)
 - [OpenGraph Meta Tags](http://opengraphprotocol.org/)
+- [Facebook Open Graph](https://developers.facebook.com/docs/sharing/webmasters)
+- [Twitter Cards Markup Tag Reference](https://dev.twitter.com/cards/markup)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
 - [HTML meta 详解](https://segmentfault.com/a/1190000009705754)
@@ -329,4 +459,10 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 - [移动前端开发之viewport的深入理解](https://www.cnblogs.com/2050/p/3877280.html)
 - [A tale of two viewports ](https://www.quirksmode.org/mobile/viewports.html)
 - [Theme Color](https://github.com/whatwg/meta-theme-color)
+
+## Credits
+
+- Originally copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
+- Added templates from https://moz.com/blog/meta-data-templates-123
+
 
