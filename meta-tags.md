@@ -19,7 +19,7 @@
 <meta name='designer' content=''>
 <meta name='reply-to' content='email@hotmail.com'>
 <meta name='owner' content=''>
-<meta name='url' content='http://www.websiteaddrress.com'>
+<meta name='url' content='http://www.websiteaddress.com'>
 <meta name='identifier-URL' content='http://www.websiteaddress.com'>
 <meta name='directory' content='submission'>
 <meta name='pagename' content='jQuery Tools, Tutorials and Resources - O’Reilly Media'>
