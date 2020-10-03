@@ -190,6 +190,15 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 
 <link rel="manifest" href="/manifest.json" />
 ```
+## DNS Tags
+```
+<link rel="dns-prefetch" href="https://www.gstatic.com/">
+```
+
+## Content Tags
+```
+<link rel="canonical" href="originalMain.web.com" />
+```
 
 ## Other Resources
 
