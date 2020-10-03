@@ -23,7 +23,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='url' content='http://www.websiteaddrress.com'>
 <meta name='identifier-URL' content='http://www.websiteaddress.com'>
 <meta name='directory' content='submission'>
-<meta name='pagename' content='jQuery Tools, Tutorials and Resources - O'Reilly Media'>
+<meta name='pagename' content="jQuery Tools, Tutorials and Resources - O'Reilly Media">
 <meta name='category' content=''>
 <meta name='coverage' content='Worldwide'>
 <meta name='distribution' content='Global'>
@@ -155,6 +155,11 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
 ```
 
+##### Safari 9 Pinned tabs in El Capitan
+```html
+<link rel="mask-icon" href="website_icon.svg" color="red">
+```
+
 #### Internet Explorer Meta Tags
 
 ```html
@@ -166,7 +171,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='msapplication-window' content='width=800;height=600'>
 <meta name='msapplication-navbutton-color' content='red'>
 <meta name='application-name' content='Rey Bango Front-end Developer'>
-<meta name='msapplication-tooltip' content='Launch Rey Bango's Blog'>
+<meta name='msapplication-tooltip' content="Launch Rey Bango's Blog">
 <meta name='msapplication-task' content='name=About;action-uri=/about/;icon-uri=/images/about.ico'>
 <meta name='msapplication-task' content='name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico'>
 <meta name='msapplication-task' content='name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico'>
@@ -241,6 +246,14 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='chrome-webstore-item' href='https://chrome.google.com/webstore/detail/noojglkidnpfjbincgijbaiedldjfbhh'>
 
 ```
+#### Theme Color Meta Tags
+
+```html
+
+<meta name='theme-color' content="#202020"/>
+
+```
+
 ## Other Resources
 
 - [HTML5 Boilerplate explanations and suggestions of header tags](http://html5boilerplate.com/docs/head-Tips/)
@@ -249,3 +262,4 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 - [OpenGraph Meta Tags](http://opengraphprotocol.org/)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
+- [Theme Color](https://github.com/whatwg/meta-theme-color)
