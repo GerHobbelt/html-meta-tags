@@ -12,6 +12,7 @@ Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [
 ## Basic HTML Meta Tags
 
 ```html
+<meta charset="utf-8"/> <!-- declares the page's character encoding -->
 <meta charset='UTF-8'>
 <meta name='keywords' content='your, tags'>
 <meta name='description' content='160 words'>
@@ -61,10 +62,15 @@ Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [
 <meta http-equiv='imagetoolbar' content='no'>
 <meta http-equiv='x-dns-prefetch-control' content='off'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="viewport" content="width=320,initial-scale=1,user-scalable=no">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="initial-scale=1.0">
+<meta name="viewport" content="initial-scale=2.3,user-scalable=no">
 ```
 
 ##  Meta Tags social
-```
+
+```html
 <meta property='og:title' content='title of article'>
 <meta property='og:type' content='blog'>
 <meta property='og:image' content='image url'>
@@ -75,26 +81,26 @@ Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [
 ## OpenGraph Meta Tags
 
 ```html
-<meta name='og:title' content='The Rock'>
-<meta name='og:type' content='movie'>
-<meta name='og:url' content='http://www.imdb.com/title/tt0117500/'>
-<meta name='og:image' content='http://ia.media-imdb.com/rock.jpg'>
-<meta name='og:site_name' content='IMDb'>
-<meta name='og:description' content='A group of U.S. Marines, under command of...'>
+<meta property="og:title" content="The Rock"/>
+<meta property="og:type" content="movie"/>
+<meta property="og:url" content="http://www.imdb.com/title/tt0117500/"/>
+<meta property="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
+<meta property="og:site_name" content="IMDb"/>
+<meta property="og:description" content="A group of U.S. Marines, under command of..."/>
 
-<meta name='fb:page_id' content='43929265776'>
-<meta name='application-name' content='foursquare'>
-<meta name='og:email' content='me@example.com'>
-<meta name='og:phone_number' content='650-123-4567'>
-<meta name='og:fax_number' content='+1-415-123-4567'>
+<meta property="fb:page_id" content="43929265776" />
+<meta property='application-name' content='foursquare'>
+<meta property="og:email" content="me@example.com"/>
+<meta property="og:phone_number" content="650-123-4567"/>
+<meta property="og:fax_number" content="+1-415-123-4567"/>
 
-<meta name='og:latitude' content='37.416343'>
-<meta name='og:longitude' content='-122.153013'>
-<meta name='og:street-address' content='1601 S California Ave'>
-<meta name='og:locality' content='Palo Alto'>
-<meta name='og:region' content='CA'>
-<meta name='og:postal-code' content='94304'>
-<meta name='og:country-name' content='USA'>
+<meta property="og:latitude" content="37.416343"/>
+<meta property="og:longitude" content="-122.153013"/>
+<meta property="og:street-address" content="1601 S California Ave"/>
+<meta property="og:locality" content="Palo Alto"/>
+<meta property="og:region" content="CA"/>
+<meta property="og:postal-code" content="94304"/>
+<meta property="og:country-name" content="USA"/>
 
 <meta property='fb:admins' content='987654321'>
 <meta property='og:type' content='game.achievement'>
@@ -193,6 +199,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='msapplication-task' content='name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico'>
 <meta name='msvalidate.01' content='6E3AD52DC176461A3C81DD6E98003BC9'>
 <meta http-equiv='cleartype' content='on'>
+<link rel="shortcut icon" href="/images/favicon.ico" />
 ```
 
 #### Windows 8 Meta Tags
@@ -231,6 +238,20 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='csrf-param' content='authenticity_token'>
 <meta name='csrf-token' content='/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc='>
 ```
+
+#### Apple Tags
+
+```html
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" />
+<link rel="apple-touch-startup-image" href="/startup.png">
+
+<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
+```
     
 ## HTML Link Tags
 
@@ -244,21 +265,26 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='archives' title='May 2003' href='http://blog.unto.net/2003/05/'>
 <link rel='index' title='DeWitt Clinton' href='http://blog.unto.net/'>
 <link rel='start' title='Pattern Recognition 1' href='http://blog.unto.net/photos/pattern_recognition_1_about/'>
-<link rel='bookmark'title='Styleguide' href='http://paulrobertlloyd.com/about/styleguide/'>
+<link rel='bookmark' title='Styleguide' href='http://paulrobertlloyd.com/about/styleguide/'>
 <link rel='search' href='/search.xml' type='application/opensearchdescription+xml' title='Viatropos'>
 
 <link rel='self' type='application/atom+xml' href='http://www.syfyportal.com/atomFeed.php?page=3'>
 <link rel='first' href='http://www.syfyportal.com/atomFeed.php'>
+<link rel='next' title='Not blog' href='http://blog.unto.net/meta/not-blog/' />
 <link rel='next' href='http://www.syfyportal.com/atomFeed.php?page=4'>
+<link rel='prev' title='OpenSearch and OpenID?  A sure way to get my attention.' href='http://blog.unto.net/opensearch/opensearch-and-openid-a-sure-way-to-get-my-attention/' />
 <link rel='previous' href='http://www.syfyportal.com/atomFeed.php?page=2'>
 <link rel='last' href='http://www.syfyportal.com/atomFeed.php?page=147'>
 
+<link rel='shortlink' href='http://smallbiztrends.com/?p=43625' />
 <link rel='canonical' href='http://smallbiztrends.com/2010/06/9-things-to-do-before-entering-social-media.html'>
 <link rel='EditURI' type='application/rsd+xml' title='RSD' href='http://smallbiztrends.com/xmlrpc.php?rsd'>
 <link rel='pingback' href='http://smallbiztrends.com/xmlrpc.php'>
 <link rel='stylesheet' media='only screen and (max-device-width: 480px)' href='http://wordpress.org/style/iphone.css' type='text/css'>
 <link rel='wlwmanifest' href='http://www.example.com/wp-includes/wlwmanifest.xml' type='application/wlwmanifest+xml'>
-```
+
+<link rel="manifest" href="/manifest.json" />
+
 <link rel='help' title='FAQ' href='/faq'>
 <link rel='logo' type='image/svg' href='https://playfoursquare.s3.amazonaws.com/press/logo/foursquare-logo.svg'>
 <link rel='P3Pv1' href='/w3c/p3p.xml'>
@@ -270,14 +296,24 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'>
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 <link rel='chrome-webstore-item' href='https://chrome.google.com/webstore/detail/noojglkidnpfjbincgijbaiedldjfbhh'>
-
 ```
+
 #### Theme Color Meta Tags
 
 ```html
-
 <meta name='theme-color' content="#202020"/>
+```
 
+## DNS Tags
+
+```html
+<link rel="dns-prefetch" href="https://www.gstatic.com/">
+```
+
+## Content Tags
+
+```html
+<link rel="canonical" href="originalMain.web.com" />
 ```
 
 ## Other Resources
@@ -288,4 +324,9 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 - [OpenGraph Meta Tags](http://opengraphprotocol.org/)
 - [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
 - [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
+- [HTML meta 详解](https://segmentfault.com/a/1190000009705754)
+- [MDN The Document-level Metadata element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+- [移动前端开发之viewport的深入理解](https://www.cnblogs.com/2050/p/3877280.html)
+- [A tale of two viewports ](https://www.quirksmode.org/mobile/viewports.html)
 - [Theme Color](https://github.com/whatwg/meta-theme-color)
+
