@@ -35,26 +35,26 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 ## OpenGraph Meta Tags
 
 ``` html
-<meta name="og:title" content="The Rock"/>
-<meta name="og:type" content="movie"/>
-<meta name="og:url" content="http://www.imdb.com/title/tt0117500/"/>
-<meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:site_name" content="IMDb"/>
-<meta name="og:description" content="A group of U.S. Marines, under command of..."/>
+<meta property="og:title" content="The Rock"/>
+<meta property="og:type" content="movie"/>
+<meta property="og:url" content="http://www.imdb.com/title/tt0117500/"/>
+<meta property="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
+<meta property="og:site_name" content="IMDb"/>
+<meta property="og:description" content="A group of U.S. Marines, under command of..."/>
 
-<meta name="fb:page_id" content="43929265776" />
+<meta property="fb:page_id" content="43929265776" />
 
-<meta name="og:email" content="me@example.com"/>
-<meta name="og:phone_number" content="650-123-4567"/>
-<meta name="og:fax_number" content="+1-415-123-4567"/>
+<meta property="og:email" content="me@example.com"/>
+<meta property="og:phone_number" content="650-123-4567"/>
+<meta property="og:fax_number" content="+1-415-123-4567"/>
 
-<meta name="og:latitude" content="37.416343"/>
-<meta name="og:longitude" content="-122.153013"/>
-<meta name="og:street-address" content="1601 S California Ave"/>
-<meta name="og:locality" content="Palo Alto"/>
-<meta name="og:region" content="CA"/>
-<meta name="og:postal-code" content="94304"/>
-<meta name="og:country-name" content="USA"/>
+<meta property="og:latitude" content="37.416343"/>
+<meta property="og:longitude" content="-122.153013"/>
+<meta property="og:street-address" content="1601 S California Ave"/>
+<meta property="og:locality" content="Palo Alto"/>
+<meta property="og:region" content="CA"/>
+<meta property="og:postal-code" content="94304"/>
+<meta property="og:country-name" content="USA"/>
 
 <meta property="og:type" content="game.achievement"/>
 <meta property="og:points" content="POINTS_FOR_ACHIEVEMENT"/>
