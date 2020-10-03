@@ -1,3 +1,10 @@
+## DEPRECATED
+
+Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [@dandv](https://github.com/dandv)!
+
+---  
+
+
 
 
 ## Basic HTML Meta Tags
@@ -164,14 +171,14 @@
 #### Blog Catalog Meta Tags
 
 ``` html
-<meta name='blogcatalog'>
+<meta name="blogcatalog">
 ```
 
 #### Rails Meta Tags
 
 ``` html
-<meta name='csrf-param' content='authenticity_token'>
-<meta name='csrf-token' content='/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc='>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc=">
 ```
 
 ## HTML Link Tags
@@ -198,7 +205,7 @@
 <link rel='canonical' href='http://smallbiztrends.com/2010/06/9-things-to-do-before-entering-social-media.html'>
 <link rel='EditURI' type='application/rsd+xml' title='RSD' href='http://smallbiztrends.com/xmlrpc.php?rsd'>
 <link rel='pingback' href='http://smallbiztrends.com/xmlrpc.php'>
-<link rel='stylesheet' media='only screen and (max-device-width: 480px)' href='http://wordpress.org/style/iphone.css'>
+<link rel='stylesheet' media='only screen and (max-device-width: 480px)' href='http://wordpress.org/style/iphone.css' type='text/css'>
 <link rel='wlwmanifest' href='http://www.example.com/wp-includes/wlwmanifest.xml' type='application/wlwmanifest+xml'>
 
 <link rel='help' title='FAQ' href='/faq'>
@@ -208,7 +215,7 @@
 <link rel='image_src' href='http://du3itj18e4z0b.cloudfront.net/7b29fe/images/icon-facebook.gif' type='image/jpeg'>
 
 <link rel='author' href='humans.txt' type='text/plain'>
-<link rel='original-source' href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/'>
+<link rel='original-source' href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/' rel='original-source'>
 <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'>
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 ```
