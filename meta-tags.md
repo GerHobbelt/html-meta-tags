@@ -1,5 +1,3 @@
-Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
-
 ## Basic HTML Meta Tags
 
 ```html
@@ -213,6 +211,12 @@ polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml
 <meta name="twitter:app:name:googleplay" content="Cannonball">
 <meta name="twitter:app:id:googleplay" content="io.fabric.samples.cannonball">
 <meta name="twitter:app:url:googleplay" content="http://cannonball.fabric.io/poem/5149e249222f9e600a7540ef">
+```
+
+#### Google Meta Tags
+
+``` html
+<meta name="news_keywords" content="World Cup, Brazil 2014, Spain vs Netherlands, soccer, football">
 ```
 
 #### TweetMeme Meta Tags
