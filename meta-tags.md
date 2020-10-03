@@ -2,7 +2,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ## Basic HTML Meta Tags
 
-``` html
+```html
 <meta charset='UTF-8'>
 <meta name='keywords' content='your, tags'>
 <meta name='description' content='150 words'>
@@ -17,6 +17,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='Classification' content='Business'>
 <meta name='author' content='name, email@hotmail.com'>
 <meta name='designer' content=''>
+<meta name='copyright' content=''>
 <meta name='reply-to' content='email@hotmail.com'>
 <meta name='owner' content=''>
 <meta name='url' content='http://www.websiteaddrress.com'>
@@ -55,7 +56,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 ## OpenGraph Meta Tags
 
-``` html
+```html
 <meta name='og:title' content='The Rock'>
 <meta name='og:type' content='movie'>
 <meta name='og:url' content='http://www.imdb.com/title/tt0117500/'>
@@ -101,7 +102,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
 Use custom meta tags to store data that you need in Javascript, instead of hard-coding that data into your Javascript.  I store my Google Analytics code in meta tags.  Here's some examples:
 
-``` html
+```html
 <meta name='google-analytics' content='1-AHFKALJ'>
 <meta name='google-site-verification' content=' ... GWT ID ... ' />
 <meta name='disqus' content='abcdefg'>
@@ -114,7 +115,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 
 #### ClaimID
 
-``` html
+```html
 <meta name='microid' content='mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7'>
 <meta name='readability-verification' content='E7aEHvVQpWc8VHDqKvaB2Z58hek2EAv2HuLuegv7'>
 <meta name='google-site-verification' content='4SMIedO1X4IkYrYuhEC2VuovdQM36Xxb0btUjElqQyg'>
@@ -125,28 +126,34 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
     
 #### Apple Meta Tags
 
-``` html
+```html
 <meta name="apple-mobile-web-app-title" content="My App"> <!-- New in iOS6 -->
 <meta name='apple-mobile-web-app-capable' content='yes'>
 <meta name='apple-touch-fullscreen' content='yes'>
 <meta name='apple-mobile-web-app-status-bar-style' content='black'>
 <meta name='format-detection' content='telephone=no'>
 <meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
+<meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
+<meta name="viewport" content="width = device-width">
+<meta name="viewport" content="initial-scale = 1.0">
+<meta name="viewport" content="initial-scale = 2.3, user-scalable = no">
 
 <link rel="apple-touch-icon" sizes="144x144" href="assets/ico.apple-ipad@2x.png" />
 <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-ipad.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-iphone@2x.png" />
 <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-iphone.png" />
 <link rel="apple-touch-startup-image" href='assets/img/startup.png" />
+<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
 ```
 
 #### Internet Explorer Meta Tags
 
-``` html
+```html
 <meta http-equiv='Page-Enter' content='RevealTrans(Duration=2.0,Transition=2)'>
 <meta http-equiv='Page-Exit' content='RevealTrans(Duration=3.0,Transition=12)'>
 <meta name='mssmarttagspreventparsing' content='true'>
-<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name='msapplication-starturl' content='http://blog.reybango.com/about/'>
 <meta name='msapplication-window' content='width=800;height=600'>
 <meta name='msapplication-navbutton-color' content='red'>
@@ -163,32 +170,32 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 
 #### Google Meta Tags
 
-``` html
+```html
 <meta name="news_keywords" content="World Cup, Brazil 2014, Spain vs Netherlands, soccer, football">
 ```
 
 #### TweetMeme Meta Tags
 
-``` html
+```html
 <meta name='tweetmeme-title' content='Retweet Button Explained'>
 ```
 
 #### Blog Catalog Meta Tags
 
-``` html
+```html
 <meta name='blogcatalog'>
 ```
 
 #### Rails Meta Tags
 
-``` html
+```html
 <meta name='csrf-param' content='authenticity_token'>
 <meta name='csrf-token' content='/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc='>
 ```
     
 ## HTML Link Tags
 
-``` html
+```html
 <link rel='alternate' type='application/rss+xml' title='RSS' href='http://feeds.feedburner.com/martini'>
 <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='https://example.com/feed.atom'>
 <link rel='shortcut icon' type='image/ico' href='/favicon.ico'>
