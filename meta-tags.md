@@ -1,12 +1,21 @@
 Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 
+## DEPRECATED
+
+Please see: https://github.com/kevinSuttle/html-meta-tags, thanks for the idea [@dandv](https://github.com/dandv)!
+
+---  
+
+
+
+
 ## Basic HTML Meta Tags
 
 ```html
 <meta charset='UTF-8'>
 <meta name='keywords' content='your, tags'>
 <meta name='description' content='160 words'>
-<meta name='subject' content="your website's subject">
+<meta name='subject' content='your website’s subject'>
 <meta name='copyright' content='company name'>
 <meta name="language" content="EN">
 <meta name='robots' content='index,follow'>
@@ -20,10 +29,10 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='copyright' content=''>
 <meta name='reply-to' content='email@hotmail.com'>
 <meta name='owner' content=''>
-<meta name='url' content='http://www.websiteaddrress.com'>
+<meta name='url' content='http://www.websiteaddress.com'>
 <meta name='identifier-URL' content='http://www.websiteaddress.com'>
 <meta name='directory' content='submission'>
-<meta name='pagename' content="jQuery Tools, Tutorials and Resources - O'Reilly Media">
+<meta name='pagename' content='jQuery Tools, Tutorials and Resources - O’Reilly Media'>
 <meta name='category' content=''>
 <meta name='coverage' content='Worldwide'>
 <meta name='distribution' content='Global'>
@@ -43,6 +52,7 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta name='verify-v1' content='dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I='>
 <meta name='y_key' content='1e39c508e0d87750'>
 <meta name='pageKey' content='guest-home'>
+<meta name="theme-color" content="#3c790a">
 <meta itemprop='name' content='jQTouch'>
 <meta http-equiv='Expires' content='0'>
 <meta http-equiv='Pragma' content='no-cache'>
@@ -51,8 +61,8 @@ Copied from http://code.lancepollard.com/complete-list-of-html-meta-tags/
 <meta http-equiv='imagetoolbar' content='no'>
 <meta http-equiv='x-dns-prefetch-control' content='off'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
 ```
+
 ##  Meta Tags social
 ```
 <meta property='og:title' content='title of article'>
@@ -141,6 +151,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='apple-mobile-web-app-status-bar-style' content='black'>
 <meta name='format-detection' content='telephone=no'>
 <meta name='viewport' content='width=device-width; content='width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi'>
+<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi, minimal-ui'>
 <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
 <meta name="viewport" content="width = device-width">
 <meta name="viewport" content="initial-scale = 1.0">
@@ -153,11 +164,15 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel="apple-touch-startup-image" href='assets/img/startup.png" />
 <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
 <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
+<link href='http://github.com/images/touch-icon-iphone4.png' sizes='114x114' rel='apple-touch-icon-precomposed'>
+<link href='http://github.com/images/touch-icon-ipad.png' sizes='72x72' rel='apple-touch-icon-precomposed'>
+<link href='http://github.com/images/apple-touch-icon-57x57.png' sizes='57x57' rel='apple-touch-icon-precomposed'>
 ```
 
 ##### Safari 9 Pinned tabs in El Capitan
+
 ```html
-<link rel="mask-icon" href="website_icon.svg" color="red">
+<link rel='mask-icon' href='website_icon.svg' color='red'>
 ```
 
 #### Internet Explorer Meta Tags
@@ -171,14 +186,25 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <meta name='msapplication-window' content='width=800;height=600'>
 <meta name='msapplication-navbutton-color' content='red'>
 <meta name='application-name' content='Rey Bango Front-end Developer'>
-<meta name='msapplication-tooltip' content="Launch Rey Bango's Blog">
+<meta name='msapplication-tooltip' content='Launch Rey Bango’s Blog'>
 <meta name='msapplication-task' content='name=About;action-uri=/about/;icon-uri=/images/about.ico'>
 <meta name='msapplication-task' content='name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico'>
 <meta name='msapplication-task' content='name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico'>
 <meta name='msapplication-task' content='name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico'>
 <meta name='msvalidate.01' content='6E3AD52DC176461A3C81DD6E98003BC9'>
 <meta http-equiv='cleartype' content='on'>
+```
 
+#### Windows 8 Meta Tags
+
+``` html
+<meta name='application-name' content='Contoso' />
+<meta name='msapplication-TileColor' content='#009900' />
+<meta name='msapplication-square70x70logo' content='images/smalltile.png' />
+<meta name='msapplication-square150x150logo' content='images/mediumtile.png' />
+<meta name='msapplication-wide310x150logo' content='images/widetile.png' />
+<meta name='msapplication-square310x310logo' content='images/largetile.png' />
+<meta name='msapplication-notification' content='frequency=30; polling-uri=notifications/contoso1.xml; polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml' />
 ```
 
 #### Google Meta Tags
@@ -240,7 +266,7 @@ Use custom meta tags to store data that you need in Javascript, instead of hard-
 <link rel='image_src' href='http://du3itj18e4z0b.cloudfront.net/7b29fe/images/icon-facebook.gif' type='image/jpeg'>
 
 <link rel='author' href='humans.txt' type='text/plain'>
-<link href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/' rel='original-source'>
+<link rel='original-source' href='http://thenextweb.com/2009/01/08/how-to-snap-up-that-twitter-username-youve-always-wanted/'>
 <link rel='profile' title='Microformats' href='http://microformats.org/profile/specs/'>
 <link rel='profile' href='http://gmpg.org/xfn/11'>
 <link rel='chrome-webstore-item' href='https://chrome.google.com/webstore/detail/noojglkidnpfjbincgijbaiedldjfbhh'>
